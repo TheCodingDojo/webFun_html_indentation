@@ -1,0 +1,50 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head>
+    <title>My Registration Form</title>
+  </head>
+  <body>
+    <form action="process.php" method="post">
+      <p>My Registration Form</p><br>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name"><br>
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name"><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br>
+
+      <label for="pw_confirm">PW Confirm:</label>
+      <input type="password" id="pw_confirm" name="password confirmation"><br>
+
+      <label for="date">Birthday:</label>
+      <input type="date" id="date" name="Birthday"><br>
+
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male"><br>
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female"><br>
+
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other"><br>
+
+      <label for="entry">A short description about yourself:</label>
+      <textarea name="entry" id="entry"></textarea><br>
+
+      <label for="program">Favorite Language</label>
+      <select name="program" id="program">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Merm">Mern</option>
+      </select><br>
+
+      <input type="submit" value="submit"><br>
+
+    </form>
+  </body>
+</html>
