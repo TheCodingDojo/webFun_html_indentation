@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="" src="">
+        <title>My Registration Form</title>
+    </head>
+    <body>
+    <form action="process.php" method="post">
+        <p>My Registration Form </p1> <br>
+        
+        <label for="first name">First Name </label>
+        <input type="text" id="first name" value=""><br>
+
+        <label for="last name">Last Name </label>
+        <input type="text" id="last name" value=""><br>
+
+        <label for="email">email </label>
+        <input type="text" id="last name" value=""><br>
+
+        <label for="password">Password </label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="pw confirm">PW Confirm </label>
+        <input type="password" id="pw confirm" name="pw confirm"><br>
+
+        <label for="birthday">Birthday </label>
+        <input type="date" id="birthday" name="birthday" value="mm/dd/yyyy"><br>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for ="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="decline">Other</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+
+        <p>A short Description about yourself: </p>
+        <textarea name="description"></textarea><br>
+
+        <label for="favorite language">Favorite language</label>
+        <select name="languages" id="languages">
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="c#">C#</option>
+        </select><br>
+        <input type="submit" value="Submit">  
+
+    </form>
+    </body>   
+</html>
